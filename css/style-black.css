@@ -1,0 +1,315 @@
+/*
+Theme Name: Nigiri Sushi
+Theme URI: http://ericsetiawan.com/2005/12/08/wp-themes-nigiri-sushi/
+Description: A (re-)design of a photoblog theme for Wordpress based on Polaroid theme by Taly (http://www.taly.com.ar/polaroid).
+Version: Beta 2
+Author: Eric Setiawan
+Author URI: http://ericsetiawan.com
+
+	All elements of this theme are protected by the GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+body {
+	background: #000;
+        color: #aaa;
+        font-family: "lucida grande", verdana, sans-serif;
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+	padding: 0 0 20px;
+        margin: 0;
+}
+
+/* Main Structure */
+.container {
+        margin: 0 auto 0;
+	width: 1050px;
+        padding: 0 20px 20px;
+	background: transparent;
+}
+
+.navigation {
+       width: 680px;
+}
+
+
+/* Generals and Links */
+a, a:visited {
+	color: #aaa;
+        text-decoration: none;
+}
+
+
+a:hover, a:visited:hover {
+	color: #fff;
+        text-decoration: none;
+}
+
+acronym, abbr {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	border-bottom: 1px dashed #999;
+	cursor: help;
+}
+
+blockquote {
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.alignright {
+	float: right;
+	}
+	
+.alignleft {
+	float: left
+	}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+	
+img.noborder {
+	border: none;
+	}
+
+.favorite img {
+	padding: 0;
+	border: none;
+	}
+
+small {
+	font-size: .9em;
+	line-height: 1.5em;
+	}
+
+small, strike {
+	color: #777;
+	}
+	
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+
+/* Top Navbar */
+ul.menu {
+	margin: 0 auto 0;
+	padding: 0;
+        top: 0;
+	bottom: 0;
+        width: auto;
+        height: 20px;
+        background: #444;
+        border-bottom: 1px solid #fff;
+	}
+
+ul.menu li {
+	display: inline;
+	margin: 0 auto 0;
+	}
+
+ul.menu,
+ul.menu li a {
+	padding: 5px 5px 6px;
+	}
+
+ul.menu li a {
+	font: 1em "lucida grande", verdana, sans-serif;
+	color: #999;
+	margin: 0;
+        text-decoration: none;
+	}
+
+ul.menu li a:hover {
+	background: none;
+	color: #fff !important;
+	text-decoration: none;
+	}
+
+ul.menu li.current_page_item a,
+ul.menu li.current_page_item a:hover {
+	color: #fff !important;
+	background: none;
+	text-decoration: none;
+	}
+
+ul.menu li.blogtitle {
+        font-family: "lucida grande", verdana, sans-serif;
+        letter-spacing: .6em;
+        font-weight: bold;
+        color: #fff;
+}
+
+.admintab {
+	position: absolute;
+	right: 20px;
+	}
+
+/* Entry */
+.entry, .pages {
+        width: 1040px;
+     	margin: 20px auto 0;
+  	padding: 0px;     
+   	color: #999;
+}
+
+.entry img {
+    	margin: 0 auto 0;
+     	padding: 6px;
+     	border: 2px solid #777;	
+}
+
+.entrydata {
+	margin: 5px 30px 0;
+}
+
+.pages {
+        text-align: left;
+}
+
+
+/* Comments */
+.comments { 
+     width: 620px;
+     margin: 0 auto 0;
+     padding : 12px;     
+     color : #999;
+     font-weight : normal;
+     text-align : justify;
+}
+
+.commentsbody {
+     border-bottom: 1px solid #E8E8E8;
+     text-align: justify;
+     margin-bottom: 10px;
+     padding: 10px;
+}
+
+
+/* Archive */
+.entryarchive {
+        width: 560px;
+        float: left;
+     	margin: 0;
+     	padding: 0px;     
+     	color: #a9a9a9;
+        text-align: left;
+}
+
+.entryarchive img, .entryarchive img a, .entryarchive img a:visited {
+     	margin: 3px;
+     	padding: 3px;
+     	border: 1px solid #999;
+}
+
+.entryarchive a:hover img {
+        margin: 3px;
+        padding: 3px;
+        border: 1px solid #000;
+        background: #fff;
+}
+
+.entryarchive p {
+        display: inline;
+}
+
+.sidearchive {
+        width: 180px;
+        float: right;
+        padding: 50px 10px 30px;
+        text-align: left;
+}
+
+.sidearchive img {
+       float: left;
+       border: 1px solid #777;
+       padding: 3px;
+       margin-right: 6px;
+}
+
+ul.sidelist {
+        margin: 0;
+        padding: 0;
+}
+
+ul.sidelist li {
+        list-style-type: none;
+}
+
+.sidetitle {
+        font-family: "lucida grande", verdana, sans-serif;
+        margin: 15px 0 0;
+        padding: 0;
+}
+
+/* Footer */
+
+.footer {
+        clear: both;
+        color: #777;
+}
+
+.footer a, .footer a:visited {
+        color: #777;
+        border-bottom: 1px dotted #444;
+}
+
+.footer a:hover {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+}
+
+
+/* Links */
+
+ul.linklist li {
+        list-style-type: none;
+}
+
+ul.linklist li h2 {
+         font-size: 15px;
+         font-family: "lucida grande", verdana, sans-serif;
+         margin: 15px 0 0;
+         padding: 0;
+         color: #ccc;
+}
+
+ul.linklist li ul li,
+ul.linklist li ul li a {
+         margin: 0;
+         padding: 0;
+}
+
+ul.linklist li ul li a,
+ul.linklist li ul li a:visited {
+         color: #aaa;
+}
+
+ul.linklist li ul li a:hover {
+         color: #fff;
+}
+
